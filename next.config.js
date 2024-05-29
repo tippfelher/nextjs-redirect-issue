@@ -11,6 +11,9 @@ const config = {
     headers: [{
       key: 'Access-Control-Allow-Origin',
       value: '*',
+    }, {
+      key: 'Referrer-Policy',
+      value: 'strict-origin-when-cross-origin',
     }],
   }],
 };
